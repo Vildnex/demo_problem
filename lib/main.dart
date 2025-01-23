@@ -1,4 +1,5 @@
 import 'package:demo_problem/widget.dart';
+import 'package:demo_problem/widgetbook/widgetbook.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -8,7 +9,7 @@ Future<void> main() async {
 
   runApp(
     ScreenUtilInit(
-      designSize: const Size(375, 812),
+      designSize: defaultDesignSize,
       minTextAdapt: true,
       splitScreenMode: true,
       child: MaterialApp(

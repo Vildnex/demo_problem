@@ -26,8 +26,7 @@ class WidgetbookApp extends StatelessWidget {
               id: 'android-device',
               name: 'Huawei Pura 70',
               platform: TargetPlatform.android,
-              // screenSize: const Size(1260, 2844),
-              screenSize: const Size(1260, 2844),
+              screenSize: const Size(1256, 2760),
             )
           ],
         ),
